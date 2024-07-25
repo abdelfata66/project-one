@@ -1,0 +1,256 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+/* 2 scroll width top */
+.scroller{
+    background-color: #081158;;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* عشان لو اي عنصر معمول ليه بوزيشن يبقي هو فوقه وفوق اي حد */
+    z-index: 99999;
+    height: 2px;
+    width: 0px;
+}
+/* start header  */
+header nav ul li .nav-link{
+    color: #000;
+}
+
+header nav ul li .nav-link:hover{
+    color: #081158;
+}
+header nav ul li .download{
+    color: #081158;
+    font-weight: 700;
+}
+
+
+/* start home */
+
+/* 1btn js */
+#btn-scroll{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 3px;
+    border: none;
+    color: #ffffff;
+    background:  #081158;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    border: 1px solid #081158;
+    transition: .8s;
+}
+
+
+header .container .row{
+    margin-top: 120px;
+}
+header .container .row span ,
+main .container .text span ,
+.two .container .row span{
+    color: #FBB244;
+    background-color: rgba(251, 178, 68, 0.155);
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+header .container .row h2{
+    color: #081158;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px 0;
+}
+header .container .row h2::first-letter ,
+main .one .container .text h3::first-letter ,
+.two .container .row h3::first-letter , .three .container .text h2::first-letter {
+    color: #FBB244;
+}
+header .container .row p ,
+main .container .text p ,
+main .container .row p,
+.two .container .row p{
+    color: #0000007f;
+    font-size: 12px;
+}
+header .container .row .btn , 
+.two .container .row .btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #081158;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: .8s;
+
+}
+header .container .row .btn-one{
+    background-color: #081158;
+    color: #fff;    
+
+}
+header .container .row .btn-one:hover ,
+.two .container .row .btn:hover{
+    background-color: #fff;
+    color: #081158;
+    transform: scale(.9);
+}
+header .container .row .btn-two{
+    background-color: #fff;
+    color: #081158;
+    margin-left: 10px;
+}
+header .container .row .btn-two:hover{
+    background-color: #081158;
+    color: #fff;
+    transform: scale(.9);
+}
+header .container .row img{
+    width: 100%;
+}
+
+/* section one */
+main .one .container , #three .container{
+    margin-top: 120px;
+}
+main .one .container .text h3{
+    margin: 10px 0;
+    color: #081158;
+    font-weight: bold;
+    font-size: 35px;
+}
+main i{
+    color: #081158;
+}
+main .one .container .text p{
+    width: 60%;
+    margin: auto;
+}
+main .one .container .row a{
+    font-size: 40px;
+    color: #9f9a9ac4;
+    position: relative;
+}
+main .one .container .row h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px 0;
+}
+main .one .container .row img{
+    width: 100px;
+}
+main .one .container .row div{
+    margin-top: 45px;
+}
+main .one .container .row p{
+    width: 90%;
+}
+
+/* section two */
+#two .container .row{
+    margin-top: 120px;
+}
+#two .container .row img{
+    width: 100%;
+}
+#two .container .row h3 , #three .container .text h2{
+    color: #081158;
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 35px;
+}
+#two .container .row a{
+    display: block;
+    color: #00000086;
+    text-decoration: none;
+}
+#two .container .row i{
+    margin-right: 10px;
+}
+#two .container .row .btn{
+    background-color: #081158;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+/* start section three */
+#three .container{
+    margin-top: 120px;
+}
+#three .container .text h2{
+    color: #081158;
+    margin-bottom: 35px;
+}
+#three .container .row .box{
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+#three .container .row a{
+    font-size: 45px;
+    margin-right: 30px;
+    color: #000000ae;
+    position: relative;
+}
+#three .container .row img{
+    width: 100px;
+    margin-right: 5px;
+}
+#three .container .row h3{
+    font-size: 20px;
+}
+
+/* start footer */
+footer{
+    border-radius: 5px;
+    margin-top: 120px;
+    border: 1px solid #cfc9c9a1;
+    padding-top: 80px;
+}
+footer .part{
+    margin: 5px 0;
+}
+footer .container .row .part h2{
+    color: #081158;
+    font-size: 22px;
+    font-weight: bold;
+}
+footer p{
+    color: #00000098;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+footer h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: #081158;
+}
+footer .this a{
+    text-decoration: none;
+    color: #00000098;
+    display: block;
+    font-size: 12px;
+}
+footer a i{
+    color: #081158;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+footer h4{
+    text-align: center;
+    margin-top: 10px ;
+    padding: 15px;
+    border: 1px solid #cfc9c9a1;
+    font-size: 10px;
+    text-transform: capitalize;
+} 
